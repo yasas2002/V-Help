@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  max-width: 400px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-top: 3px solid red;
+  border-radius: 5px;
+}
+
+.box1 a button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: red;
+  color: #eee;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.box1 a button:hover {
+  transform: scale(1.1);
+}
+
+.callBtn {
+  position: fixed;
+  bottom: 120px;
+  right: 30px;
+}
+
+.callBtn i {
+  font-size: 40px;
+}

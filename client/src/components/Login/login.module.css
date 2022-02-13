@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px 30px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 90vh;
+  align-items: center;
+}
+
+/* .container > * {
+  margin: 10px 0;
+} */
+
+.loginForm > * {
+  margin: 10px 0;
+}
+
+.container form > * {
+  margin: 10px 0;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.wrapper img {
+  width: 400px;
+}
